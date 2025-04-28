@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PL Bot Chat</title>
+</head>
+<body>
+    <h1>PL Bot - Fantasy Cricket Chatbot</h1>
+    <div>
+        <input type="text" id="user_input" placeholder="Ask me about Fantasy Cricket...">
+        <button onclick="askQuestion()">Ask</button>
+    </div>
+    <div id="response"></div>
+
+    <script>
+        function askQuestion() {
+            let question = document.getElementById('user_input').value;
+            fetch('/ask', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ question: question })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('response').innerHTML = "Bot: " + data.answer;
+            });
+        }
+    </script>
+</body>
+</html>

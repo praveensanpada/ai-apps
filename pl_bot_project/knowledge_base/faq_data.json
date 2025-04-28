@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Who is the best batsman in the IPL?",
+        "answer": "Virat Kohli has consistently been one of the best batsmen in the IPL."
+    },
+    {
+        "question": "What is the highest score in an IPL match?",
+        "answer": "The highest score in an IPL match is 175, scored by Chris Gayle."
+    },
+    {
+        "question": "Which team has won the most IPL titles?",
+        "answer": "Mumbai Indians have won the most IPL titles, with 5 championships."
+    },
+    {
+        "question": "Who is the highest wicket-taker in IPL history?",
+        "answer": "Lasith Malinga is the highest wicket-taker in IPL history with 170 wickets."
+    },
+    {
+        "question": "Which team has the most successful captain in IPL?",
+        "answer": "Mumbai Indians, under Rohit Sharma, have been the most successful with 5 titles."
+    },
+    {
+        "question": "Who is the fastest century scorer in IPL?",
+        "answer": "Chris Gayle holds the record for the fastest century in IPL, scoring 100 runs in just 30 balls."
+    }
+]
